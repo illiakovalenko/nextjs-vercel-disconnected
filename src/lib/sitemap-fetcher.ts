@@ -51,6 +51,7 @@ export class SitecoreSitemapFetcher {
    * @param {GetStaticPathsContext} context
    */
   async fetch(context?: GetStaticPathsContext): Promise<StaticPath[]> {
+    return [];
     // If we are in Export mode
     if (process.env.EXPORT_MODE) {
       // Disconnected Export mode
